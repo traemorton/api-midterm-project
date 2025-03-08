@@ -1,15 +1,16 @@
-[project]
-name = "swe midterm"
+[tool.poetry]
+name = "swe-midterm"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "traemorton",email = "70462114+traemorton@users.noreply.github.com"}
-]
-readme = "README.md"
-requires-python = ">=3.10"
+authors = ["traemorton <70462114+traemorton@users.noreply.github.com>"]
+license = "MIT"  # You can change this to your preferred license
 dependencies = [
+    "django",  # add your dependencies here, for example
+    "djangorestframework"  # example, adjust as necessary
 ]
 
+[tool.poetry.dev-dependencies]
+# add any development dependencies here
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
